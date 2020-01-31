@@ -1,0 +1,100 @@
+    1  sudo su -
+    2  exit
+    3  clear
+    4  cd /vagrant/
+    5  mkdir automation
+    6  cd automation/
+    7  ls -lrt
+    8  pwd
+    9  ls -lrt
+   10  pwd
+   11  git init
+   12  ls -lrt
+   13  ls -lrta
+   14  cd .git
+   15  ls
+   16  ls -lrt
+   17  cd ..
+   18  git config --global user.name="Vinit"
+   19  git config --global user.name "Vinit"
+   20  git config --global user.mail "vinitamin7@gmail.com"
+   21  history
+   22  git config --global user.email "vinitamin7@gmail.com"
+   23  history
+   24  git config --list
+   25  touch Readme.txt
+   26  vi Readme.txt 
+   27  ls -lrt
+   28  mv Readme.txt README.txt
+   29  vi index.html
+   30  git status
+   31  git add README.txt 
+   32  git status
+   33  git add .
+   34  git status
+   35  git commit -m "Addedd the Readme and index.html file"
+   36  ls -ltr
+   37  vi index.html
+   38  git diff
+   39  git status
+   40  vi remove.txt
+   41  git add
+   42  git add .
+   43  rm remove.txt 
+   44  git stautus
+   45  git status
+   46  git rm remove.txt
+   47  git status
+   48  touch abc.class
+   49  touch binary.class
+   50  vi .gitignore
+   51  git status
+   52  git add .gitignore 
+   53  git status
+   54  git commit -m "Addess the giignore file"
+   55  git status
+   56  git log
+   57  ls -lrt
+   58  git log --onelne
+   59  git log --oneline
+   60  git log --oneline --decorate -graph
+   61  git log --oneline --decorate --graph
+   62  git tag --a V1 --m "This is our version to be released"
+   63  git tag
+   64  git status
+   65  git log
+   66  git tag --a V1.2 --m "This is our 2nd version to be released"
+   67  git commitid
+   68  git show V1
+   69* git tag 
+   70  git log
+   71  git id
+   72  git show
+   73  git tag --a V1.2 da68921a40db3135489a0928f67bdbb9a0ed3f8e  --m "This is our 2nd version to be released"
+   74  git tag -d V1.2
+   75  git tag --a V1.2 da68921a40db3135489a0928f67bdbb9a0ed3f8e  --m "This is our 2nd version to be released"
+   76  git tag V1.2
+   77  git show V1.2
+   78  history > history.txt
+   79  ssh -keygen -t rsa
+   80  ssh-keygen -t rsa
+   81  cat /home/vagrant/.ssh/id_rsa.pub
+   82  cd /temp
+   83  git clone https://github.com/vinitdevops/automation-lab.git
+   84  ls -lrt
+   85  cd automation-lab/
+   86  ls -lrt
+   87  ls -artl
+   88  cd /tmp
+   89  git clone https://github.com/vinitdevops/automation-lab.git
+   90  ls -lrt
+   91  git remote -v
+   92  git remote add origin https://github.com/vinitdevops/automation-lab.git
+   93  cd -
+   94  pwd
+   95  cd ..
+   96  git remote add origin https://github.com/vinitdevops/automation-lab.git
+   97  git remote -v
+   98  git push  origin master
+   99  git push -u origin master
+  100  history > history.txt
